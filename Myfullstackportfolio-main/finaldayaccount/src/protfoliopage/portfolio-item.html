@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>VASANTH Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="C:\Users\vasan\Downloads\WEB DEVELOPMENT 2023\PORTFOLIO WEBSITE SCRIMBA\codes\css\index.css">
+        <style>
+            body{
+                background-image: url("https://cutewallpaper.org/25/animated-white-wallpaper-gif/abstract-white-background-hd-motion-graphics-background-loop-white-video-royalty-free-footages-on-make-a-gif.gif");
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="C:\Users\vasan\Downloads\WEB DEVELOPMENT 2023\PORTFOLIO WEBSITE SCRIMBA\images\vasanthlogo.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                Smart Sunglasses for<strong>Visually Impared peoples</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Ai assist smartglass</p>
+            <img src="C:\Users\vasan\Downloads\WEB DEVELOPMENT 2023\PORTFOLIO WEBSITE SCRIMBA\images\glassimg.jpg" alt="DEVELOPMENT" class="intro__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <h3>Built with</h3>
+            <h5>openCV | Python | Ultrasonic | GPS</h5>
+            <video width="100%" height="240" autoplay>
+                <source src="C:\Users\vasan\Downloads\WEB DEVELOPMENT 2023\PORTFOLIO WEBSITE SCRIMBA\images\smartglessvideo.mp4" type="video/mp4">
+                
+              Your browser does not support the video tag.
+              </video>
+            <!--
+            <iframe width="100%" height="315"
+                src="https://youtu.be/hgFQvMWihCg">
+            </iframe>
+            -->
+            <p>Basically it is difficult for blind people pass their day to day life with their disabilities. To make their life easier, 
+                we have made a smart blind sun glasses with some features are interfaced in their sun glasses. Whenever the obstacle is detected on the way through ultrasonic 
+                sensor placed on the front of the glass, Camera gets triggered to capture the object which is on the way. The captured image is sent to cloud to identify the type of the object and then it is intimated as voice command through 
+                speaker or via earphones connected with Raspberry pi. So that blind can able to identify the object in-front of them, if it is identified that is a human in their way, they can ask for any help. If there is a large obstacle like a car,
+                they can be able to walk based on the object in-front of them. Additionally, by interfacing GPS with the system, with the help of google maps, 
+                the system will automatically navigate their way to home.
+                The working of the system begins when the power supply is given. The ultrasonic sensor is then used to detect obstacle and provides distance between obstacle and the device. 
+                GPS Module provides navigation. When obstacle is detected, the distance and the navigation will be processed using Raspberry Pi device. The processing happens in such a way that if the obstacle is on to the right side, 
+                a voice command will be given to take left and vice versa.</p>
+        </div>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:vasanth.it21@bitsathy.ac.in" class="footer__link">vasanth.it21@bitsathy.ac.in</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="http://dribbble.com">
+                        <i class="fab fa-dribbble"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="C:\Users\vasan\Downloads\WEB DEVELOPMENT 2023\PORTFOLIO WEBSITE SCRIMBA\codes\css\js\index.js"></script>
+        
+    </body>
+</html>
